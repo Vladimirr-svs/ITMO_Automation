@@ -38,9 +38,9 @@ def more_than_10(a, b, c): # Задание 5
 more_than_10(11, 15, 30)
 
 
-def count_positive_numbers(numbers):  # Задание 6
+def count_positive_numbers(numbers_list):  # Задание 6
     positive_count = 0
-    for number in numbers:
+    for number in numbers_list:
         if number > 0:
             positive_count += 1
     return positive_count
