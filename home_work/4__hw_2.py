@@ -1,12 +1,12 @@
 class SidebarButton:
-    def __init__(self, text, button_type="Кнопка", locator=""):
+    def __init__(self, text, button_type="Knopka", locator=""):
 
         self.text = text
         self.button_type = button_type
         self.locator = locator
 
     def click(self):
-        return f"Клик по кнопке {self.text}"
+        return f"Click on the button {self.text}"
 
 
 text_box_button = SidebarButton("Text Box")
